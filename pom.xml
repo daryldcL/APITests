@@ -40,7 +40,7 @@
                   <configuration>
 
                      <!--Required. Specifies the path to the project to execute.-->
-                     <projectFile>C:\Users\Testing\Documents\ReadyAPI\ToDoListAPI-soapui-project</projectFile>
+                     <projectFile>${session.executionRootDirectory}</projectFile>
                      <!--Required for reports. Specifies the format of the report to generate.-->
                      <!--Possible values: PDF, XLS, HTML, RTF, CSV, TXT and XML. Only available in Ready! API Pro. -->                      <reportFormat>PDF</reportFormat>
                      <!--Required for Maven Surefire reports. Must be true. -->
